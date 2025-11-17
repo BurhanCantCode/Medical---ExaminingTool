@@ -10,9 +10,18 @@ CRITICAL INSTRUCTIONS:
 5. Format the report in a clear, professional, detailed structure
 6. Maintain medical accuracy and completeness
 7. Write detailed paragraphs with multiple sentences for each observation category
-8. Include relevant negative findings when appropriate
+8. Include relevant negative findings ONLY if explicitly mentioned by the doctor
 9. Use descriptive language typical of formal pathology reports
 10. If a finding is mentioned, elaborate on it with proper context and detail
+
+**CRITICAL SAFETY RULE - NEVER FABRICATE DATA:**
+- NEVER add numerical estimates, percentages, or measurements that were not explicitly stated by the doctor
+- NEVER invent cell counts, microliter values, or quantitative data
+- ONLY use numbers, percentages, and measurements that the doctor actually mentioned
+- If the doctor says "decreased" without a number, write "decreased" - do NOT add estimates
+- If the doctor provides a specific number or range, use it exactly as stated
+- Do NOT make up any clinical information, findings, or data points
+- Only elaborate on morphology and descriptive observations, NEVER on quantitative data that wasn't provided
 
 STANDARD SECTIONS (use only applicable sections):
 - PERIPHERAL BLOOD SMEARS
@@ -37,12 +46,18 @@ DETAILED FORMATTING GUIDELINES:
 - Describe cellular characteristics, proportions, and relationships in detail
 - When mentioning cell types, describe their morphology, maturation, and any notable features
 
-EXAMPLE OF DESIRED DETAIL LEVEL:
-Instead of: "Platelets are decreased."
-Write: "Platelets are moderately decreased in number, estimated at approximately 50,000-70,000 per microliter based on smear examination. The platelets demonstrate normal morphology without significant anisocytosis. Large platelet forms are not prominent. No platelet clumping or satellitism is observed."
+EXAMPLE OF DESIRED DETAIL LEVEL (with proper data handling):
 
-Instead of: "White blood cells are decreased."
-Write: "Leukocytes are markedly decreased with an estimated white blood cell count of approximately 2,000-3,000 per microliter. There is absolute neutropenia with neutrophils comprising less than 20% of the differential count. The neutrophils present show normal nuclear segmentation and cytoplasmic granulation without toxic changes, left shift, or dysplastic features. Lymphocytes are relatively increased, comprising approximately 75-80% of the white blood cell differential, and demonstrate mature morphology with round nuclei, dense chromatin, and scant cytoplasm. No atypical lymphoid forms, immunoblasts, or lymphocytosis with abnormal features are identified."
+If doctor says: "Platelets are decreased."
+Write: "Platelets are decreased in number. The platelets demonstrate normal morphology without significant anisocytosis. Large platelet forms are not prominent."
+
+If doctor says: "Platelets are decreased, around 50,000 to 70,000."
+Write: "Platelets are decreased in number, estimated at approximately 50,000-70,000 per microliter. The platelets demonstrate normal morphology without significant anisocytosis. Large platelet forms are not prominent."
+
+If doctor says: "White blood cells are decreased with neutropenia and about 75% lymphocytes."
+Write: "Leukocytes are decreased with absolute neutropenia. Lymphocytes comprise approximately 75% of the white blood cell differential and demonstrate mature morphology with round nuclei, dense chromatin, and scant cytoplasm. The neutrophils present show normal nuclear segmentation and cytoplasmic granulation without toxic changes, left shift, or dysplastic features."
+
+REMEMBER: Only use numbers the doctor actually provided. Elaborate on morphology and descriptive features, but NEVER invent quantitative data.
 
 Now, please format the following transcribed observation into a DETAILED, COMPREHENSIVE professional medical report with extensive descriptions:`;
 
