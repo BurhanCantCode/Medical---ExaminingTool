@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "client/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/client/$1"
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/transcribe",
+      "destination": "/api/transcribe"
+    },
+    {
+      "source": "/api/generate-report",
+      "destination": "/api/generate-report"
+    },
+    {
+      "source": "/api/generate-pdf",
+      "destination": "/api/generate-pdf"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/client/index.html"
+    }
+  ]
+}
+
